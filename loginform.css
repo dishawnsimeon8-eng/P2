@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700'); 
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 body {
   background-color: #927057;
@@ -13,6 +15,8 @@ main {
   padding: 50px 60px 70px 60px;
   background: #d5c395;
   text-align: center;
+  font-family: 'Comfortaa', sans-serif;
+    
 }
 
 .login-box {
@@ -23,6 +27,7 @@ main {
  font-size: 1.1em; 
  border-radius: 5px; 
  Margin-bottom: 30px;
+ font-family: 'Comfortaa', sans-serif;
 }
 
 .login-box h2 {
@@ -33,12 +38,16 @@ main {
 .login-box label {
   display: block;
   margin: 10px 0 5px;
+
+  
 }
 
 .login-box input {
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
+  color: #927057;
+  
 }
 
 .login-box button {
@@ -89,6 +98,11 @@ main {
   position: relative; /* makes the box the reference point */
 }
 
+footer {
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center if you set a height */
+  margin-top: 20px;
+  color: #d5c395;
+}
 
-
-  
